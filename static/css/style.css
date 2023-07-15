@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* disable double_tap zoom on mobile devices */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    /* strange margin-right occurs when vw<500px */
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: #9d88d3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    position: relative;
+}
+
+#wrapper-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/hertaa1.gif");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    z-index: -50;
+}
+
+#wrapper-background-filter {
+    background-color: #9d88d3f5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+}
+
+#loading {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/hertaa1.gif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+.preload {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+#content {
+    margin: 2vh auto;
+    width: 80vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+}
+
+#page-title {
+    text-align: left;
+}
+
+#title-img {
+    height: 4em;
+}
+
+#language-selector-container {
+    position: relative;
+    left: 50%;
+    width: 400px;
+    height: fit-content;
+    padding: 10px;
+    align-content: center;
+    transform: translateX(-50%);
+}
+
+#language-selector-placeholder {
+    height: 60px;
+}
+
+#subtitle-seperator {
+    margin-bottom: 10px;
+}
+
+#counter-container {
+    text-align: center;
+    font-weight: bold;
+    margin: 64px 0;
+}
+
+#counter-container>p {
+    text-shadow: #9d88d3 0 0 10px, #9d88d3 0 0 10px, #9d88d3 0 0 10px, #9d88d3 0 0 10px, #9d88d3 0 0 10px;
+}
+
+#global-counter {
+    color: #574f84;
+    font-size: 2em;
+    line-height: 38px;
+}
+
+#local-counter {
+    color: #574f84;
+    /* font-size: 0.75em; */
+    font-size: 2em;
+}
+
+#counter-button {
+    background-color: #574f84;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 16px;
+    min-width: 120px;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 6px 7px 40px -4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out, scale 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#counter-button:hover {
+    background-color: #2d2463;
+}
+
+#counter-button:active {
+    scale: 0.95;
+}
+
+#counter-button span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffffff50;
+
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+
+    animation: ripple 1s;
+    opacity: 0;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
+#footer {
+    background-color: white;
+    color: black;
+    padding: 16px 10vw;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#herta-card {
+    min-width: 256px;
+    max-width: 720px;
+    height: auto;
+    border-top-left-radius: 2% 3.5%;
+    border-top-right-radius: 2% 3.5%;
+    border-bottom-left-radius: 2% 3.5%;
+    border-bottom-right-radius: 2% 3.5%;
+}
+
+/* test,由vgwik添加 */
+#herta-card:hover {
+    background-color: #ececec;
+    transform: translate3d(-0.5px, -0.5px, 0px);
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0.9px 2.5px 0.5px #00000042;
+}
+
+.footer-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+#twitter-footer-icon {
+    color: #1d9bf0;
+}
+
+#github-footer-icon {
+    color: #000000;
+}
+
+.footer-icon-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+#footer-repository-text {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 2240px) {
+    .grid-item {
+        width: calc(20% - 10px);
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .grid-item {
+        width: calc(25% - 10px);
+    }
+}
+
+@media screen and (max-width: 1512px) {
+    body {
+        font-size: 1.25em;
+    }
+
+    #subtitle-seperator {
+        margin-top: 3px;
+        margin-bottom: 11px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .grid-item {
+        width: calc(100% / 3 - 10px);
+    }
+
+    #footer {
+        flex-wrap: wrap;
+    }
+
+    #footer-text {
+        text-align: center;
+    }
+
+    #footer-header-text {
+        margin-bottom: 8px;
+    }
+
+    #footer-repository-text {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    body {
+        font-size: 1em;
+    }
+
+    #subtitle-seperator {
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .grid-item {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    #subtitle-seperator {
+        margin-top: 8px;
+        margin-bottom: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-item {
+        width: calc(100% - 10px);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #subtitle-seperator {
+        margin-top: 10px;
+    }
+}
+
+#access-via-mirror,
+#access-via-pages {
+    font-size: small;
+}
+
+#credits-part {
+    width: 100%;
+}
+
+.credits-head-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.about-link {
+    color: black !important;
+}
+
+.mdlist-ava-fix {
+    overflow: hidden !important;
+}
+
+.mdlist-ava-fix img {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+}
+
+td#setting-item-table-td {
+    text-align: right;
+}
+
+td#setting-item-table-td > div.mdui-select {
+    text-align: center;
+    width: 100%;
+}
