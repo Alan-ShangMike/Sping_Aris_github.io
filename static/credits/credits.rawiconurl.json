@@ -1,0 +1,186 @@
+{
+    "contributors": [
+        {
+            "username": "duiqt",
+            "name": "Phúc Duy",
+            "thing": "main-dev",
+            "socialmedia": {
+                "github": "duiqt"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/90624125?v=4"
+        },
+        {
+            "username": "risbi0",
+            "thing": "main-dev",
+            "socialmedia": {
+                "github": "risbi0"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/81689588?v=4"
+        },
+        {
+            "username": "fred913",
+            "name": "Sheng Fan",
+            "thing": "main-dev",
+            "socialmedia": {
+                "github": "fred913",
+                "bilibili": {
+                    "uid": 496636524,
+                    "username": "剩饭不吃剩饭"
+                }
+            },
+            "icon": "https://avatars.githubusercontent.com/u/41846047?v=4"
+        },
+        {
+            "username": "george-chou",
+            "name": "Monet Joe",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "george-chou",
+                "bilibili": {
+                    "uid": 30620472,
+                    "username": "亦真亦幻Studio"
+                }
+            },
+            "icon": "https://avatars.githubusercontent.com/u/20459298?v=4"
+        },
+        {
+            "username": "PencilCore",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "PencilCore",
+                "bilibili": {
+                    "uid": 206149936,
+                    "username": "PencilCore"
+                }
+            },
+            "icon": "https://avatars.githubusercontent.com/u/62322900?v=4"
+        },
+        {
+            "username": "moepoi",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "moepoi"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/29736957?v=4"
+        },
+        {
+            "username": "rikarani",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "rikarani"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/46773591?v=4"
+        },
+        {
+            "username": "joulev",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "joulev"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/44609036?v=4"
+        },
+        {
+            "username": "RafadanaM",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "RafadanaM"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/7974643?v=4"
+        },
+        {
+            "username": "AlanShang",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "AlanShang",
+                "bilibili": {
+                    "uid": 1959156689,
+                    "username": "AlanShang"
+                  }
+            },
+            "icon": "https://contrib.rocks/image?repo=Alan-ShangMike/Sping_Aris_github.io"
+        },
+        {
+            "username": "Sechi",
+            "thing": "artist",
+            "socialmedia": {
+                "twitter": "Sechi",
+                "bilibili": {
+                    "uid": 476491780,
+                    "username": "SechiAnimation"
+                }
+                },
+                "icon": "images/S.jpg"
+        },
+        {
+            "username": "vgwik",
+            "thing": "localization",
+            "socialmedia": {
+                "github": "vgwik",
+                "bilibili": {
+                    "uid": 38120922,
+                    "username": "vgwik"
+                }
+            },
+            "icon": "https://avatars.githubusercontent.com/u/52212950?v=4"
+        },
+        {
+            "username": "提灯书梦",
+            "thing": "localization:Korean",
+            "socialmedia": {
+                "bilibili": {
+                    "uid": 6318620,
+                    "username": "提灯书梦"
+                }
+            },
+            "icon": "https://i2.hdslb.com/bfs/face/d3f6572157f3c51497cff1d58dd925632477faf5.jpg"
+        },
+        {
+            "username": "二次元のリア充",
+            "thing": "localization:Japanese",
+            "socialmedia": {
+                "bilibili": {
+                    "uid": 7885894,
+                    "username": "二次元のリア充"
+                }
+            },
+            "icon": "https://i1.hdslb.com/bfs/face/5772af8e0ad4067323e1f082f887a220b92dbf71.jpg"
+        },
+        {
+            "username": "TororuInta",
+            "thing": "localization:Indonesian",
+            "socialmedia": {
+                "github": "TororuInta"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/134951362?v=4"
+        },
+        {
+            "username": "KawaiiShadowii",
+            "thing": "inspiration",
+            "socialmedia": {
+                "github": "KawaiiShadowii"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/33539431?v=4"
+        },
+        {
+            "username": "blacktunes",
+            "thing": "code-contributor",
+            "socialmedia": {
+                "github": "blacktunes",
+                "bilibili": {
+                    "uid": 1384118,
+                    "username": "单推黑猫白雪的咸鱼"
+                }
+            },
+            "icon": "https://avatars.githubusercontent.com/u/38934611?v=4"
+        },
+        {
+            "username": "Whitetiger0423",
+            "thing": "localization:Korean",
+            "socialmedia": {
+                "twitter": "__white_t__",
+                "github": "Whitetiger0423"
+            },
+            "icon": "https://avatars.githubusercontent.com/u/72282371?v=4"
+        }
+    ]
+}
